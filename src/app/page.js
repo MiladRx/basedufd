@@ -21,7 +21,7 @@ const HomePage = () => {
       <div className="flex flex-col items-center justify-center text-center px-4 sm:px-8 py-6 bg-opacity-80 w-full max-w-screen-lg">
 
         {/* Logo Section */}
-        <div className="flex mt-16 mb-20 justify-center">
+        <div className="flex mb-20 justify-center">
         <img src="/img/sssssssssss.png" alt="Logo" className="w-[250px] h-[250px] sm:w-[250px] sm:h-[250px] md:w-[350px] md:h-[350px] object-contain" />
         </div>
 
@@ -38,7 +38,7 @@ const HomePage = () => {
           <svg 
             onClick={handleCopy}
             xmlns="http://www.w3.org/2000/svg" 
-            className="w-8 h-8 cursor-pointer text-white hover:text-blue-500 transition" 
+            className="w-8 h-8 cursor-pointer text-white" 
             fill="none" 
             viewBox="0 0 24 24" 
             stroke="currentColor"
@@ -61,12 +61,7 @@ const HomePage = () => {
           </a>
         </div>
 
-        {/* Success Message */}
-        {copySuccess && (
-          <div className="mt-4 text-white">
-            {copySuccess}
-          </div>
-        )}
+       
       </div>
     </div>
   );
