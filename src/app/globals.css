@@ -19,3 +19,10 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: 'CoopersTown';
+  src: url('/fonts/Coopers Town.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
