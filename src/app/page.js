@@ -22,25 +22,27 @@ const HomePage = () => {
 
         {/* Logo Section */}
         <div className="flex -mt-60 justify-center">
-        <img src="/img/sssssssssss.png" alt="Logo" className="w-[450px] h-[450px] sm:w-[250px] sm:h-[250px] md:w-[550px] md:h-[550px] object-contain" />
+          <img src="/img/sssssssssss.png" alt="Logo" className="w-[450px] h-[450px] sm:w-[250px] sm:h-[250px] md:w-[550px] md:h-[550px] object-contain" />
         </div>
 
         {/* Content Section */}
-        <h1 className="text-4xl sm:mb-10 sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-white" style={{ fontFamily: 'CoopersTown' }}>
+        <h1 className="text-4xl sm:mb-10 sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-white sm:whitespace-nowrap " style={{ fontFamily: 'CoopersTown' }}>
   Based Unicorn Fart Dust
 </h1>
+
+
 
         {/* Contract Address Section with Copy Icon */}
         <div className="flex items-center space-x-2 mb-6 px-4 sm:px-8">
           <p id="contract-address" className="text-sm sm:text-3xl font-bold text-white truncate">
             0x2CeA2655aD958a2cE3BA9E3001bd8059cfa8B1d0
           </p>
-          <svg 
+          <svg
             onClick={handleCopy}
-            xmlns="http://www.w3.org/2000/svg" 
-            className="w-8 h-8 cursor-pointer text-white" 
-            fill="none" 
-            viewBox="0 0 24 24" 
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-8 h-8 cursor-pointer text-white"
+            fill="none"
+            viewBox="0 0 24 24"
             stroke="currentColor"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 2H6a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V6a2 2 0 00-2-2zM6 8h8M6 12h8m-6 4h6"></path>
@@ -61,7 +63,7 @@ const HomePage = () => {
           </a>
         </div>
 
-       
+
       </div>
     </div>
   );
