@@ -21,7 +21,7 @@ const HomePage = () => {
       <div className="flex flex-col items-center justify-center text-center px-4 sm:px-8 py-6 bg-opacity-80 w-full max-w-screen-lg">
 
         {/* Logo Section */}
-        <div className="flex  justify-center">
+        <div className="flex -mt-60 justify-center">
         <img src="/img/sssssssssss.png" alt="Logo" className="w-[450px] h-[450px] sm:w-[250px] sm:h-[250px] md:w-[550px] md:h-[550px] object-contain" />
         </div>
 
