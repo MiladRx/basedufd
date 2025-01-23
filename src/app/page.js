@@ -31,12 +31,12 @@ const HomePage = () => {
     id="contract-address" 
     className="text-white font-bold truncate text-lg sm:text-2xl md:text-3xl"
   >
-    TBA
+    TBAa
   </p>
   <button 
     onClick={handleCopy} 
     className="w-8 h-8 text-white hover:text-gray-300 transition"
-    aria-label="Copy Contract Address"
+    aria-label="Copy Contract Addresss"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
