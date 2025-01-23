@@ -64,9 +64,7 @@ const HomePage = () => {
         </svg>
       </a>
 
-      <a href="https://dexscreener.com/base/0x8eaa9f179f965a670af292e57e06c1d091b0c533" className="text-gray-400 hover:text-white">
-        <img src="/img/eagle.png" alt="Eagle Icon" className="w-14 h-14" />
-      </a>
+    
 
       <a href="https://t.me/+FZGkL9v6CtI3YWM0" className="text-gray-400 hover:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 50 50">
