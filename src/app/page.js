@@ -31,7 +31,7 @@ const HomePage = () => {
     id="contract-address" 
     className="text-white font-bold truncate text-lg sm:text-2xl md:text-3xl"
   >
-    TBAa
+    TBA
   </p>
   <button 
     onClick={handleCopy} 
