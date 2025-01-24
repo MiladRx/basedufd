@@ -31,28 +31,9 @@ const HomePage = () => {
     id="contract-address" 
     className="text-white font-bold truncate text-lg sm:text-2xl md:text-3xl"
   >
-    TBA
+    0x6a8a6BBcEfE6f20e940f786e8Ec1707f8e966321
   </p>
-  <button 
-    onClick={handleCopy} 
-    className="w-8 h-8 text-white hover:text-gray-300 transition"
-    aria-label="Copy Contract Addresss"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      className="w-full h-full"
-    >
-      <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        strokeWidth="2" 
-        d="M14 2H6a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V6a2 2 0 00-2-2zM6 8h8M6 12h8m-6 4h6"
-      />
-    </svg>
-  </button>
+  
 </div>
 
 
